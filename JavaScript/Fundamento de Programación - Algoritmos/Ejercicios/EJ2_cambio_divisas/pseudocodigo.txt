@@ -1,0 +1,14 @@
+PROBLEMA: Crear algoritmo  y código en JavaScript que ingresando una cantidad
+en euros, la muestre en dolares y quetzales
+
+******* SOLUCION *******
+//definir variables
+real: euros, dolares, quetzales
+
+//lectura datos
+Escribir("Ingrese euros")
+Leer(euros)
+
+//Calcular
+dolares <= euros * 1.13;
+quetzales <= euros * 8.75;

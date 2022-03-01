@@ -1,0 +1,16 @@
+PROBLEMA: Crear algoritmo  y código en JavaScript que ingresando un rango de 
+numeros devuelva la suma de los números en este rango
+
+******* SOLUCION *******
+//definir variables
+real: n, m, suma
+
+//lectura datos
+Escribir("Ingrese n")
+Leer(n)
+Escribir("Ingrese m")
+Leer(m)
+
+//Calcular
+suma <= (m-n+1)(n+m)/2
+Escribir("La suma es: " + suma)

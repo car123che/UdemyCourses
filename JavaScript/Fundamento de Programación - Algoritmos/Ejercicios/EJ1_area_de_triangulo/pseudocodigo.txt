@@ -1,0 +1,15 @@
+PROBLEMA: Crear algoritmo  y código en JavaScript que calcule el área de un triángulo
+
+******* SOLUCION *******
+//definir variables
+real: base, altura, area
+
+//lectura datos
+Escribir("Ingrese altura")
+Leer(altura)
+Escribir("Ingrese base")
+Leer(base)
+
+//Calcular
+area <= base * altura / 2
+Escribir("El area es: " + area)
